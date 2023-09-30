@@ -194,7 +194,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="baeminmagnifying" width="80" height="82"/>
+        <image name="baeminmagnifying" width="128" height="128"/>
         <image name="bell" catalog="system" width="125" height="128"/>
         <image name="cart" catalog="system" width="128" height="102"/>
         <image name="circle.fill" catalog="system" width="128" height="123"/>
