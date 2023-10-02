@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		3263AE562AC6F49800472837 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263AE552AC6F49800472837 /* AppDelegate.swift */; };
 		3263AE582AC6F49800472837 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263AE572AC6F49800472837 /* SceneDelegate.swift */; };
-		3263AE5A2AC6F49800472837 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263AE592AC6F49800472837 /* ViewController.swift */; };
+		3263AE5A2AC6F49800472837 /* week2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263AE592AC6F49800472837 /* week2VC.swift */; };
 		3263AE5D2AC6F49800472837 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3263AE5B2AC6F49800472837 /* Main.storyboard */; };
 		3263AE5F2AC6F49A00472837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3263AE5E2AC6F49A00472837 /* Assets.xcassets */; };
 		3263AE622AC6F49A00472837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3263AE602AC6F49A00472837 /* LaunchScreen.storyboard */; };
 		3263AE6D2AC6F49A00472837 /* iOS_study_5thTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263AE6C2AC6F49A00472837 /* iOS_study_5thTests.swift */; };
 		3263AE772AC6F49A00472837 /* iOS_study_5thUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263AE762AC6F49A00472837 /* iOS_study_5thUITests.swift */; };
 		3263AE792AC6F49A00472837 /* iOS_study_5thUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263AE782AC6F49A00472837 /* iOS_study_5thUITestsLaunchTests.swift */; };
+		3263AE882ACA517400472837 /* 2weekmission.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3263AE872ACA517400472837 /* 2weekmission.storyboard */; };
+		3263AE8A2ACAB71400472837 /* DanggeunTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263AE892ACAB71400472837 /* DanggeunTableViewCell.swift */; };
+		3263AE8C2ACAB7C600472837 /* CarrotTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263AE8B2ACAB7C600472837 /* CarrotTableViewCell.swift */; };
+		32950C852ACAB9EF007D5A4B /* CarrotProductData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32950C842ACAB9EF007D5A4B /* CarrotProductData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,7 @@
 		3263AE522AC6F49800472837 /* iOS study-5th.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS study-5th.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3263AE552AC6F49800472837 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3263AE572AC6F49800472837 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3263AE592AC6F49800472837 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3263AE592AC6F49800472837 /* week2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = week2VC.swift; sourceTree = "<group>"; };
 		3263AE5C2AC6F49800472837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3263AE5E2AC6F49A00472837 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3263AE612AC6F49A00472837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		3263AE722AC6F49A00472837 /* iOS study-5thUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS study-5thUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3263AE762AC6F49A00472837 /* iOS_study_5thUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_study_5thUITests.swift; sourceTree = "<group>"; };
 		3263AE782AC6F49A00472837 /* iOS_study_5thUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_study_5thUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3263AE872ACA517400472837 /* 2weekmission.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = 2weekmission.storyboard; sourceTree = "<group>"; };
+		3263AE892ACAB71400472837 /* DanggeunTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanggeunTableViewCell.swift; sourceTree = "<group>"; };
+		3263AE8B2ACAB7C600472837 /* CarrotTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotTableViewCell.swift; sourceTree = "<group>"; };
+		32950C842ACAB9EF007D5A4B /* CarrotProductData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotProductData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +109,8 @@
 			children = (
 				3263AE552AC6F49800472837 /* AppDelegate.swift */,
 				3263AE572AC6F49800472837 /* SceneDelegate.swift */,
+				3263AE862ACA514F00472837 /* 2주차 미션 */,
 				3263AE852AC705AC00472837 /* 1주차 미션 */,
-				3263AE592AC6F49800472837 /* ViewController.swift */,
 				3263AE5E2AC6F49A00472837 /* Assets.xcassets */,
 				3263AE602AC6F49A00472837 /* LaunchScreen.storyboard */,
 				3263AE632AC6F49A00472837 /* Info.plist */,
@@ -134,6 +142,19 @@
 			);
 			name = "1주차 미션";
 			path = "1주차 미션";
+			sourceTree = "<group>";
+		};
+		3263AE862ACA514F00472837 /* 2주차 미션 */ = {
+			isa = PBXGroup;
+			children = (
+				3263AE592AC6F49800472837 /* week2VC.swift */,
+				3263AE872ACA517400472837 /* 2weekmission.storyboard */,
+				3263AE892ACAB71400472837 /* DanggeunTableViewCell.swift */,
+				3263AE8B2ACAB7C600472837 /* CarrotTableViewCell.swift */,
+				32950C842ACAB9EF007D5A4B /* CarrotProductData.swift */,
+			);
+			name = "2주차 미션";
+			path = "2주차 미션";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +263,7 @@
 			files = (
 				3263AE622AC6F49A00472837 /* LaunchScreen.storyboard in Resources */,
 				3263AE5F2AC6F49A00472837 /* Assets.xcassets in Resources */,
+				3263AE882ACA517400472837 /* 2weekmission.storyboard in Resources */,
 				3263AE5D2AC6F49800472837 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,8 +289,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3263AE5A2AC6F49800472837 /* ViewController.swift in Sources */,
+				32950C852ACAB9EF007D5A4B /* CarrotProductData.swift in Sources */,
+				3263AE8C2ACAB7C600472837 /* CarrotTableViewCell.swift in Sources */,
+				3263AE5A2AC6F49800472837 /* week2VC.swift in Sources */,
 				3263AE562AC6F49800472837 /* AppDelegate.swift in Sources */,
+				3263AE8A2ACAB71400472837 /* DanggeunTableViewCell.swift in Sources */,
 				3263AE582AC6F49800472837 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
