@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D261B0F82ACD66EA0008371F /* UMC_2week_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D261B0F72ACD66EA0008371F /* UMC_2week_Storyboard.storyboard */; };
+		D261B0FA2ACD6CA40008371F /* UMC_2weekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D261B0F92ACD6CA40008371F /* UMC_2weekViewController.swift */; };
 		D2F70ED92ACC0897005FE458 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F70ED82ACC0897005FE458 /* AppDelegate.swift */; };
 		D2F70EDB2ACC0897005FE458 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F70EDA2ACC0897005FE458 /* SceneDelegate.swift */; };
 		D2F70EDD2ACC0897005FE458 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F70EDC2ACC0897005FE458 /* ViewController.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D261B0F72ACD66EA0008371F /* UMC_2week_Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UMC_2week_Storyboard.storyboard; sourceTree = "<group>"; };
+		D261B0F92ACD6CA40008371F /* UMC_2weekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMC_2weekViewController.swift; sourceTree = "<group>"; };
 		D2F70ED52ACC0897005FE458 /* UMC5th_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UMC5th_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F70ED82ACC0897005FE458 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2F70EDA2ACC0897005FE458 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,10 +109,12 @@
 				D2F70EDA2ACC0897005FE458 /* SceneDelegate.swift */,
 				D2F70EDC2ACC0897005FE458 /* ViewController.swift */,
 				D2F70EDE2ACC0897005FE458 /* Main.storyboard */,
+				D261B0F72ACD66EA0008371F /* UMC_2week_Storyboard.storyboard */,
 				D2F70EE42ACC0898005FE458 /* Assets.xcassets */,
 				D2F70EE62ACC0898005FE458 /* LaunchScreen.storyboard */,
 				D2F70EE92ACC0898005FE458 /* Info.plist */,
 				D2F70EE12ACC0897005FE458 /* UMC5th_iOS.xcdatamodeld */,
+				D261B0F92ACD6CA40008371F /* UMC_2weekViewController.swift */,
 			);
 			path = UMC5th_iOS;
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D261B0F82ACD66EA0008371F /* UMC_2week_Storyboard.storyboard in Resources */,
 				D2F70EE82ACC0898005FE458 /* LaunchScreen.storyboard in Resources */,
 				D2F70EE52ACC0898005FE458 /* Assets.xcassets in Resources */,
 				D2F70EE02ACC0897005FE458 /* Main.storyboard in Resources */,
@@ -263,6 +270,7 @@
 			files = (
 				D2F70EDD2ACC0897005FE458 /* ViewController.swift in Sources */,
 				D2F70ED92ACC0897005FE458 /* AppDelegate.swift in Sources */,
+				D261B0FA2ACD6CA40008371F /* UMC_2weekViewController.swift in Sources */,
 				D2F70EDB2ACC0897005FE458 /* SceneDelegate.swift in Sources */,
 				D2F70EE32ACC0897005FE458 /* UMC5th_iOS.xcdatamodeld in Sources */,
 			);
