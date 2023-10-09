@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		D261B0F82ACD66EA0008371F /* UMC_2week_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D261B0F72ACD66EA0008371F /* UMC_2week_Storyboard.storyboard */; };
 		D261B0FA2ACD6CA40008371F /* UMC_2weekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D261B0F92ACD6CA40008371F /* UMC_2weekViewController.swift */; };
+		D261B0FC2ACD71C90008371F /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D261B0FB2ACD71C90008371F /* CustomCollectionViewCell.swift */; };
+		D261B0FE2ACD74CD0008371F /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = D261B0FD2ACD74CD0008371F /* Product.swift */; };
 		D2F70ED92ACC0897005FE458 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F70ED82ACC0897005FE458 /* AppDelegate.swift */; };
 		D2F70EDB2ACC0897005FE458 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F70EDA2ACC0897005FE458 /* SceneDelegate.swift */; };
 		D2F70EDD2ACC0897005FE458 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F70EDC2ACC0897005FE458 /* ViewController.swift */; };
@@ -41,6 +43,8 @@
 /* Begin PBXFileReference section */
 		D261B0F72ACD66EA0008371F /* UMC_2week_Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UMC_2week_Storyboard.storyboard; sourceTree = "<group>"; };
 		D261B0F92ACD6CA40008371F /* UMC_2weekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMC_2weekViewController.swift; sourceTree = "<group>"; };
+		D261B0FB2ACD71C90008371F /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		D261B0FD2ACD74CD0008371F /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		D2F70ED52ACC0897005FE458 /* UMC5th_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UMC5th_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F70ED82ACC0897005FE458 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2F70EDA2ACC0897005FE458 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +119,8 @@
 				D2F70EE92ACC0898005FE458 /* Info.plist */,
 				D2F70EE12ACC0897005FE458 /* UMC5th_iOS.xcdatamodeld */,
 				D261B0F92ACD6CA40008371F /* UMC_2weekViewController.swift */,
+				D261B0FD2ACD74CD0008371F /* Product.swift */,
+				D261B0FB2ACD71C90008371F /* CustomCollectionViewCell.swift */,
 			);
 			path = UMC5th_iOS;
 			sourceTree = "<group>";
@@ -269,10 +275,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2F70EDD2ACC0897005FE458 /* ViewController.swift in Sources */,
+				D261B0FC2ACD71C90008371F /* CustomCollectionViewCell.swift in Sources */,
 				D2F70ED92ACC0897005FE458 /* AppDelegate.swift in Sources */,
 				D261B0FA2ACD6CA40008371F /* UMC_2weekViewController.swift in Sources */,
 				D2F70EDB2ACC0897005FE458 /* SceneDelegate.swift in Sources */,
 				D2F70EE32ACC0897005FE458 /* UMC5th_iOS.xcdatamodeld in Sources */,
+				D261B0FE2ACD74CD0008371F /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
