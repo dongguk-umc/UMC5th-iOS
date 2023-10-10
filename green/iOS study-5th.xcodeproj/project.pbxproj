@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3263AE562AC6F49800472837 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263AE552AC6F49800472837 /* AppDelegate.swift */; };
 		3263AE582AC6F49800472837 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263AE572AC6F49800472837 /* SceneDelegate.swift */; };
-		3263AE5A2AC6F49800472837 /* week2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263AE592AC6F49800472837 /* week2VC.swift */; };
 		3263AE5D2AC6F49800472837 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3263AE5B2AC6F49800472837 /* Main.storyboard */; };
 		3263AE5F2AC6F49A00472837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3263AE5E2AC6F49A00472837 /* Assets.xcassets */; };
 		3263AE622AC6F49A00472837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3263AE602AC6F49A00472837 /* LaunchScreen.storyboard */; };
@@ -19,6 +18,12 @@
 		3263AE882ACA517400472837 /* 2weekmission.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3263AE872ACA517400472837 /* 2weekmission.storyboard */; };
 		3263AE8A2ACAB71400472837 /* DanggeunTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263AE892ACAB71400472837 /* DanggeunTableViewCell.swift */; };
 		3263AE8C2ACAB7C600472837 /* CarrotTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3263AE8B2ACAB7C600472837 /* CarrotTableViewCell.swift */; };
+		32803E512AD5046D00BD99BD /* SB_3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32803E502AD5046D00BD99BD /* SB_3.storyboard */; };
+		32803E542AD5139F00BD99BD /* BaeminTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32803E522AD5139F00BD99BD /* BaeminTableViewCell.swift */; };
+		32803E552AD5139F00BD99BD /* BaeminTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32803E532AD5139F00BD99BD /* BaeminTableViewCell.xib */; };
+		32803E572AD53DCC00BD99BD /* dataSenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32803E562AD53DCC00BD99BD /* dataSenderViewController.swift */; };
+		32803E592AD53DD700BD99BD /* dataReceiverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32803E582AD53DD700BD99BD /* dataReceiverViewController.swift */; };
+		32803E5B2AD53E4F00BD99BD /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32803E5A2AD53E4F00BD99BD /* Food.swift */; };
 		32950C852ACAB9EF007D5A4B /* CarrotProductData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32950C842ACAB9EF007D5A4B /* CarrotProductData.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,7 +48,6 @@
 		3263AE522AC6F49800472837 /* iOS study-5th.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS study-5th.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3263AE552AC6F49800472837 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3263AE572AC6F49800472837 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3263AE592AC6F49800472837 /* week2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = week2VC.swift; sourceTree = "<group>"; };
 		3263AE5C2AC6F49800472837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3263AE5E2AC6F49A00472837 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3263AE612AC6F49A00472837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +60,12 @@
 		3263AE872ACA517400472837 /* 2weekmission.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = 2weekmission.storyboard; sourceTree = "<group>"; };
 		3263AE892ACAB71400472837 /* DanggeunTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanggeunTableViewCell.swift; sourceTree = "<group>"; };
 		3263AE8B2ACAB7C600472837 /* CarrotTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotTableViewCell.swift; sourceTree = "<group>"; };
+		32803E502AD5046D00BD99BD /* SB_3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SB_3.storyboard; sourceTree = "<group>"; };
+		32803E522AD5139F00BD99BD /* BaeminTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaeminTableViewCell.swift; sourceTree = "<group>"; };
+		32803E532AD5139F00BD99BD /* BaeminTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaeminTableViewCell.xib; sourceTree = "<group>"; };
+		32803E562AD53DCC00BD99BD /* dataSenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataSenderViewController.swift; sourceTree = "<group>"; };
+		32803E582AD53DD700BD99BD /* dataReceiverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataReceiverViewController.swift; sourceTree = "<group>"; };
+		32803E5A2AD53E4F00BD99BD /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		32950C842ACAB9EF007D5A4B /* CarrotProductData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotProductData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +119,7 @@
 			children = (
 				3263AE552AC6F49800472837 /* AppDelegate.swift */,
 				3263AE572AC6F49800472837 /* SceneDelegate.swift */,
+				32803E4F2AD5045200BD99BD /* 3주차 */,
 				3263AE862ACA514F00472837 /* 2주차 미션 */,
 				3263AE852AC705AC00472837 /* 1주차 미션 */,
 				3263AE5E2AC6F49A00472837 /* Assets.xcassets */,
@@ -147,7 +158,6 @@
 		3263AE862ACA514F00472837 /* 2주차 미션 */ = {
 			isa = PBXGroup;
 			children = (
-				3263AE592AC6F49800472837 /* week2VC.swift */,
 				3263AE872ACA517400472837 /* 2weekmission.storyboard */,
 				3263AE892ACAB71400472837 /* DanggeunTableViewCell.swift */,
 				3263AE8B2ACAB7C600472837 /* CarrotTableViewCell.swift */,
@@ -155,6 +165,20 @@
 			);
 			name = "2주차 미션";
 			path = "2주차 미션";
+			sourceTree = "<group>";
+		};
+		32803E4F2AD5045200BD99BD /* 3주차 */ = {
+			isa = PBXGroup;
+			children = (
+				32803E502AD5046D00BD99BD /* SB_3.storyboard */,
+				32803E522AD5139F00BD99BD /* BaeminTableViewCell.swift */,
+				32803E532AD5139F00BD99BD /* BaeminTableViewCell.xib */,
+				32803E562AD53DCC00BD99BD /* dataSenderViewController.swift */,
+				32803E582AD53DD700BD99BD /* dataReceiverViewController.swift */,
+				32803E5A2AD53E4F00BD99BD /* Food.swift */,
+			);
+			name = "3주차";
+			path = "3주차";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +287,10 @@
 			files = (
 				3263AE622AC6F49A00472837 /* LaunchScreen.storyboard in Resources */,
 				3263AE5F2AC6F49A00472837 /* Assets.xcassets in Resources */,
+				32803E512AD5046D00BD99BD /* SB_3.storyboard in Resources */,
 				3263AE882ACA517400472837 /* 2weekmission.storyboard in Resources */,
 				3263AE5D2AC6F49800472837 /* Main.storyboard in Resources */,
+				32803E552AD5139F00BD99BD /* BaeminTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,9 +317,12 @@
 			files = (
 				32950C852ACAB9EF007D5A4B /* CarrotProductData.swift in Sources */,
 				3263AE8C2ACAB7C600472837 /* CarrotTableViewCell.swift in Sources */,
-				3263AE5A2AC6F49800472837 /* week2VC.swift in Sources */,
+				32803E572AD53DCC00BD99BD /* dataSenderViewController.swift in Sources */,
 				3263AE562AC6F49800472837 /* AppDelegate.swift in Sources */,
 				3263AE8A2ACAB71400472837 /* DanggeunTableViewCell.swift in Sources */,
+				32803E592AD53DD700BD99BD /* dataReceiverViewController.swift in Sources */,
+				32803E5B2AD53E4F00BD99BD /* Food.swift in Sources */,
+				32803E542AD5139F00BD99BD /* BaeminTableViewCell.swift in Sources */,
 				3263AE582AC6F49800472837 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
