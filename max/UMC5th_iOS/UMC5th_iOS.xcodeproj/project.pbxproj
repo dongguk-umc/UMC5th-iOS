@@ -11,6 +11,10 @@
 		D261B0FA2ACD6CA40008371F /* UMC_2weekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D261B0F92ACD6CA40008371F /* UMC_2weekViewController.swift */; };
 		D261B0FC2ACD71C90008371F /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D261B0FB2ACD71C90008371F /* CustomCollectionViewCell.swift */; };
 		D261B0FE2ACD74CD0008371F /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = D261B0FD2ACD74CD0008371F /* Product.swift */; };
+		D261B1012AD3EE310008371F /* UMC3weekView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D261B1002AD3EE310008371F /* UMC3weekView.storyboard */; };
+		D261B1032AD3EE420008371F /* UMC3weekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D261B1022AD3EE420008371F /* UMC3weekViewController.swift */; };
+		D261B1052AD3F3180008371F /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = D261B1042AD3F3180008371F /* Food.swift */; };
+		D2BECC312AD3FA0A003ABC95 /* UMC3weekDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BECC302AD3FA0A003ABC95 /* UMC3weekDetailViewController.swift */; };
 		D2F70ED92ACC0897005FE458 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F70ED82ACC0897005FE458 /* AppDelegate.swift */; };
 		D2F70EDB2ACC0897005FE458 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F70EDA2ACC0897005FE458 /* SceneDelegate.swift */; };
 		D2F70EDD2ACC0897005FE458 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F70EDC2ACC0897005FE458 /* ViewController.swift */; };
@@ -45,6 +49,10 @@
 		D261B0F92ACD6CA40008371F /* UMC_2weekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMC_2weekViewController.swift; sourceTree = "<group>"; };
 		D261B0FB2ACD71C90008371F /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		D261B0FD2ACD74CD0008371F /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		D261B1002AD3EE310008371F /* UMC3weekView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UMC3weekView.storyboard; sourceTree = "<group>"; };
+		D261B1022AD3EE420008371F /* UMC3weekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMC3weekViewController.swift; sourceTree = "<group>"; };
+		D261B1042AD3F3180008371F /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		D2BECC302AD3FA0A003ABC95 /* UMC3weekDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMC3weekDetailViewController.swift; sourceTree = "<group>"; };
 		D2F70ED52ACC0897005FE458 /* UMC5th_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UMC5th_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F70ED82ACC0897005FE458 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2F70EDA2ACC0897005FE458 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +94,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D261B0FF2AD3EDAB0008371F /* 3week */ = {
+			isa = PBXGroup;
+			children = (
+				D261B1002AD3EE310008371F /* UMC3weekView.storyboard */,
+				D261B1022AD3EE420008371F /* UMC3weekViewController.swift */,
+				D261B1042AD3F3180008371F /* Food.swift */,
+				D2BECC302AD3FA0A003ABC95 /* UMC3weekDetailViewController.swift */,
+			);
+			path = 3week;
+			sourceTree = "<group>";
+		};
 		D2F70ECC2ACC0897005FE458 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +128,7 @@
 		D2F70ED72ACC0897005FE458 /* UMC5th_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				D261B0FF2AD3EDAB0008371F /* 3week */,
 				D2F70ED82ACC0897005FE458 /* AppDelegate.swift */,
 				D2F70EDA2ACC0897005FE458 /* SceneDelegate.swift */,
 				D2F70EDC2ACC0897005FE458 /* ViewController.swift */,
@@ -249,6 +269,7 @@
 				D261B0F82ACD66EA0008371F /* UMC_2week_Storyboard.storyboard in Resources */,
 				D2F70EE82ACC0898005FE458 /* LaunchScreen.storyboard in Resources */,
 				D2F70EE52ACC0898005FE458 /* Assets.xcassets in Resources */,
+				D261B1012AD3EE310008371F /* UMC3weekView.storyboard in Resources */,
 				D2F70EE02ACC0897005FE458 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,9 +297,12 @@
 			files = (
 				D2F70EDD2ACC0897005FE458 /* ViewController.swift in Sources */,
 				D261B0FC2ACD71C90008371F /* CustomCollectionViewCell.swift in Sources */,
+				D261B1032AD3EE420008371F /* UMC3weekViewController.swift in Sources */,
 				D2F70ED92ACC0897005FE458 /* AppDelegate.swift in Sources */,
 				D261B0FA2ACD6CA40008371F /* UMC_2weekViewController.swift in Sources */,
+				D261B1052AD3F3180008371F /* Food.swift in Sources */,
 				D2F70EDB2ACC0897005FE458 /* SceneDelegate.swift in Sources */,
+				D2BECC312AD3FA0A003ABC95 /* UMC3weekDetailViewController.swift in Sources */,
 				D2F70EE32ACC0897005FE458 /* UMC5th_iOS.xcdatamodeld in Sources */,
 				D261B0FE2ACD74CD0008371F /* Product.swift in Sources */,
 			);
