@@ -411,6 +411,8 @@
                     </view>
                     <connections>
                         <outlet property="baedalTableview" destination="ho0-QR-dfl" id="CSb-xr-D2v"/>
+                        <outlet property="totalNumLabel" destination="Z5X-jk-ISJ" id="Hh2-OM-fq5"/>
+                        <outlet property="totalPriceLabel" destination="xaB-uD-hkC" id="z4M-fc-cGq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nyj-ah-ulN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

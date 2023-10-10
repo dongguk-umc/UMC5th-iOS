@@ -10,6 +10,7 @@ import UIKit
 class dataReceiverViewController: UIViewController {
     var selectedFood: Food = Food(name: "", price: 0, information: "")
     var foodList: [Food] = []
+    var totalPrice: Int = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,10 +22,24 @@ class dataReceiverViewController: UIViewController {
         let nib = UINib(nibName: "BaeminTableViewCell", bundle: nil)
         baedalTableview.register(nib, forCellReuseIdentifier: "BaeminTableViewCell")
         
-
+        setPriceLabel(){
+            self.totalPriceLabel.text = String(totalPrice) + "원"
+        }
+        totalNumLabel.text = String(foodList.count)
+        
+        
+    }
+    func setPriceLabel(completion: () -> Void){
+        for i in foodList{
+            totalPrice = totalPrice + i.price
+        }
     }
     
     @IBOutlet weak var baedalTableview: UITableView!
+    
+    @IBOutlet weak var totalNumLabel: UILabel!
+    @IBOutlet weak var totalPriceLabel: UILabel!
+    
     
     @IBAction func backBtnDidTap(_ sender: Any) {
         self.dismiss(animated: false)
