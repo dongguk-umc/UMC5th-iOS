@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34C6A865A45160CBD603F752 /* Pods_UMC5th_iOS_UMC5th_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA7158C9FADD96221925282 /* Pods_UMC5th_iOS_UMC5th_iOSUITests.framework */; };
+		8615F196B88F8AADAA00F6F4 /* Pods_UMC5th_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E23E00223E757A25A00B0E8 /* Pods_UMC5th_iOSTests.framework */; };
+		87033E333B3DF2A41445933B /* Pods_UMC5th_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B0D6F5CB97C417131E11A2B /* Pods_UMC5th_iOS.framework */; };
 		D261B0F82ACD66EA0008371F /* UMC_2week_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D261B0F72ACD66EA0008371F /* UMC_2week_Storyboard.storyboard */; };
 		D261B0FA2ACD6CA40008371F /* UMC_2weekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D261B0F92ACD6CA40008371F /* UMC_2weekViewController.swift */; };
 		D261B0FC2ACD71C90008371F /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D261B0FB2ACD71C90008371F /* CustomCollectionViewCell.swift */; };
@@ -15,6 +18,9 @@
 		D261B1032AD3EE420008371F /* UMC3weekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D261B1022AD3EE420008371F /* UMC3weekViewController.swift */; };
 		D261B1052AD3F3180008371F /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = D261B1042AD3F3180008371F /* Food.swift */; };
 		D2BECC312AD3FA0A003ABC95 /* UMC3weekDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BECC302AD3FA0A003ABC95 /* UMC3weekDetailViewController.swift */; };
+		D2BECC342AE077A3003ABC95 /* UMC4weekView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2BECC332AE077A3003ABC95 /* UMC4weekView.storyboard */; };
+		D2BECC362AE077BC003ABC95 /* UMC4weekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BECC352AE077BC003ABC95 /* UMC4weekViewController.swift */; };
+		D2BECC382AE07DC4003ABC95 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BECC372AE07DC4003ABC95 /* User.swift */; };
 		D2F70ED92ACC0897005FE458 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F70ED82ACC0897005FE458 /* AppDelegate.swift */; };
 		D2F70EDB2ACC0897005FE458 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F70EDA2ACC0897005FE458 /* SceneDelegate.swift */; };
 		D2F70EDD2ACC0897005FE458 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F70EDC2ACC0897005FE458 /* ViewController.swift */; };
@@ -45,6 +51,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E23E00223E757A25A00B0E8 /* Pods_UMC5th_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UMC5th_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		409DB4E4AE7371D1913F30E0 /* Pods-UMC5th_iOS-UMC5th_iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMC5th_iOS-UMC5th_iOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-UMC5th_iOS-UMC5th_iOSUITests/Pods-UMC5th_iOS-UMC5th_iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		46C4056315CA5959B27D970A /* Pods-UMC5th_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMC5th_iOS.debug.xcconfig"; path = "Target Support Files/Pods-UMC5th_iOS/Pods-UMC5th_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		58BB6EB1564D0DC4EFF58489 /* Pods-UMC5th_iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMC5th_iOSTests.debug.xcconfig"; path = "Target Support Files/Pods-UMC5th_iOSTests/Pods-UMC5th_iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5947E327F90606150E82F503 /* Pods-UMC5th_iOS-UMC5th_iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMC5th_iOS-UMC5th_iOSUITests.release.xcconfig"; path = "Target Support Files/Pods-UMC5th_iOS-UMC5th_iOSUITests/Pods-UMC5th_iOS-UMC5th_iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5BA7158C9FADD96221925282 /* Pods_UMC5th_iOS_UMC5th_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UMC5th_iOS_UMC5th_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6995A1D9A5F280F0EB3ED123 /* Pods-UMC5th_iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMC5th_iOSTests.release.xcconfig"; path = "Target Support Files/Pods-UMC5th_iOSTests/Pods-UMC5th_iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		704495672D660FEBEE8FEFDB /* Pods-UMC5th_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMC5th_iOS.release.xcconfig"; path = "Target Support Files/Pods-UMC5th_iOS/Pods-UMC5th_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		7B0D6F5CB97C417131E11A2B /* Pods_UMC5th_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UMC5th_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D261B0F72ACD66EA0008371F /* UMC_2week_Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UMC_2week_Storyboard.storyboard; sourceTree = "<group>"; };
 		D261B0F92ACD6CA40008371F /* UMC_2weekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMC_2weekViewController.swift; sourceTree = "<group>"; };
 		D261B0FB2ACD71C90008371F /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -53,6 +68,9 @@
 		D261B1022AD3EE420008371F /* UMC3weekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMC3weekViewController.swift; sourceTree = "<group>"; };
 		D261B1042AD3F3180008371F /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		D2BECC302AD3FA0A003ABC95 /* UMC3weekDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMC3weekDetailViewController.swift; sourceTree = "<group>"; };
+		D2BECC332AE077A3003ABC95 /* UMC4weekView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UMC4weekView.storyboard; sourceTree = "<group>"; };
+		D2BECC352AE077BC003ABC95 /* UMC4weekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMC4weekViewController.swift; sourceTree = "<group>"; };
+		D2BECC372AE07DC4003ABC95 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D2F70ED52ACC0897005FE458 /* UMC5th_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UMC5th_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F70ED82ACC0897005FE458 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2F70EDA2ACC0897005FE458 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87033E333B3DF2A41445933B /* Pods_UMC5th_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8615F196B88F8AADAA00F6F4 /* Pods_UMC5th_iOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,12 +108,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34C6A865A45160CBD603F752 /* Pods_UMC5th_iOS_UMC5th_iOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD950BAC46998D702E42233C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46C4056315CA5959B27D970A /* Pods-UMC5th_iOS.debug.xcconfig */,
+				704495672D660FEBEE8FEFDB /* Pods-UMC5th_iOS.release.xcconfig */,
+				409DB4E4AE7371D1913F30E0 /* Pods-UMC5th_iOS-UMC5th_iOSUITests.debug.xcconfig */,
+				5947E327F90606150E82F503 /* Pods-UMC5th_iOS-UMC5th_iOSUITests.release.xcconfig */,
+				58BB6EB1564D0DC4EFF58489 /* Pods-UMC5th_iOSTests.debug.xcconfig */,
+				6995A1D9A5F280F0EB3ED123 /* Pods-UMC5th_iOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D261B0FF2AD3EDAB0008371F /* 3week */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +139,16 @@
 			path = 3week;
 			sourceTree = "<group>";
 		};
+		D2BECC322AE0778C003ABC95 /* 4week */ = {
+			isa = PBXGroup;
+			children = (
+				D2BECC332AE077A3003ABC95 /* UMC4weekView.storyboard */,
+				D2BECC352AE077BC003ABC95 /* UMC4weekViewController.swift */,
+				D2BECC372AE07DC4003ABC95 /* User.swift */,
+			);
+			path = 4week;
+			sourceTree = "<group>";
+		};
 		D2F70ECC2ACC0897005FE458 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +156,8 @@
 				D2F70EF12ACC0898005FE458 /* UMC5th_iOSTests */,
 				D2F70EFB2ACC0898005FE458 /* UMC5th_iOSUITests */,
 				D2F70ED62ACC0897005FE458 /* Products */,
+				CD950BAC46998D702E42233C /* Pods */,
+				E1E73240178BCE2887365190 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +174,7 @@
 		D2F70ED72ACC0897005FE458 /* UMC5th_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				D2BECC322AE0778C003ABC95 /* 4week */,
 				D261B0FF2AD3EDAB0008371F /* 3week */,
 				D2F70ED82ACC0897005FE458 /* AppDelegate.swift */,
 				D2F70EDA2ACC0897005FE458 /* SceneDelegate.swift */,
@@ -162,6 +209,16 @@
 			path = UMC5th_iOSUITests;
 			sourceTree = "<group>";
 		};
+		E1E73240178BCE2887365190 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B0D6F5CB97C417131E11A2B /* Pods_UMC5th_iOS.framework */,
+				5BA7158C9FADD96221925282 /* Pods_UMC5th_iOS_UMC5th_iOSUITests.framework */,
+				3E23E00223E757A25A00B0E8 /* Pods_UMC5th_iOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2F70F022ACC0898005FE458 /* Build configuration list for PBXNativeTarget "UMC5th_iOS" */;
 			buildPhases = (
+				B585E717CD248939D60F3465 /* [CP] Check Pods Manifest.lock */,
 				D2F70ED12ACC0897005FE458 /* Sources */,
 				D2F70ED22ACC0897005FE458 /* Frameworks */,
 				D2F70ED32ACC0897005FE458 /* Resources */,
+				678801A661B019B6A64D3A50 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -186,6 +245,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2F70F052ACC0898005FE458 /* Build configuration list for PBXNativeTarget "UMC5th_iOSTests" */;
 			buildPhases = (
+				B590AD6F4B1E20AC7F670659 /* [CP] Check Pods Manifest.lock */,
 				D2F70EEA2ACC0898005FE458 /* Sources */,
 				D2F70EEB2ACC0898005FE458 /* Frameworks */,
 				D2F70EEC2ACC0898005FE458 /* Resources */,
@@ -204,9 +264,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2F70F082ACC0898005FE458 /* Build configuration list for PBXNativeTarget "UMC5th_iOSUITests" */;
 			buildPhases = (
+				2F3509FC2ADDF739E9828DBD /* [CP] Check Pods Manifest.lock */,
 				D2F70EF42ACC0898005FE458 /* Sources */,
 				D2F70EF52ACC0898005FE458 /* Frameworks */,
 				D2F70EF62ACC0898005FE458 /* Resources */,
+				3962E1036169E7276F50424C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -268,6 +330,7 @@
 			files = (
 				D261B0F82ACD66EA0008371F /* UMC_2week_Storyboard.storyboard in Resources */,
 				D2F70EE82ACC0898005FE458 /* LaunchScreen.storyboard in Resources */,
+				D2BECC342AE077A3003ABC95 /* UMC4weekView.storyboard in Resources */,
 				D2F70EE52ACC0898005FE458 /* Assets.xcassets in Resources */,
 				D261B1012AD3EE310008371F /* UMC3weekView.storyboard in Resources */,
 				D2F70EE02ACC0897005FE458 /* Main.storyboard in Resources */,
@@ -290,18 +353,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F3509FC2ADDF739E9828DBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UMC5th_iOS-UMC5th_iOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3962E1036169E7276F50424C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UMC5th_iOS-UMC5th_iOSUITests/Pods-UMC5th_iOS-UMC5th_iOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UMC5th_iOS-UMC5th_iOSUITests/Pods-UMC5th_iOS-UMC5th_iOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UMC5th_iOS-UMC5th_iOSUITests/Pods-UMC5th_iOS-UMC5th_iOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		678801A661B019B6A64D3A50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UMC5th_iOS/Pods-UMC5th_iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UMC5th_iOS/Pods-UMC5th_iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UMC5th_iOS/Pods-UMC5th_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B585E717CD248939D60F3465 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UMC5th_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B590AD6F4B1E20AC7F670659 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UMC5th_iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D2F70ED12ACC0897005FE458 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D2F70EDD2ACC0897005FE458 /* ViewController.swift in Sources */,
+				D2BECC362AE077BC003ABC95 /* UMC4weekViewController.swift in Sources */,
 				D261B0FC2ACD71C90008371F /* CustomCollectionViewCell.swift in Sources */,
 				D261B1032AD3EE420008371F /* UMC3weekViewController.swift in Sources */,
 				D2F70ED92ACC0897005FE458 /* AppDelegate.swift in Sources */,
 				D261B0FA2ACD6CA40008371F /* UMC_2weekViewController.swift in Sources */,
 				D261B1052AD3F3180008371F /* Food.swift in Sources */,
 				D2F70EDB2ACC0897005FE458 /* SceneDelegate.swift in Sources */,
+				D2BECC382AE07DC4003ABC95 /* User.swift in Sources */,
 				D2BECC312AD3FA0A003ABC95 /* UMC3weekDetailViewController.swift in Sources */,
 				D2F70EE32ACC0897005FE458 /* UMC5th_iOS.xcdatamodeld in Sources */,
 				D261B0FE2ACD74CD0008371F /* Product.swift in Sources */,
@@ -476,6 +644,7 @@
 		};
 		D2F70F032ACC0898005FE458 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46C4056315CA5959B27D970A /* Pods-UMC5th_iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -503,6 +672,7 @@
 		};
 		D2F70F042ACC0898005FE458 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 704495672D660FEBEE8FEFDB /* Pods-UMC5th_iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -530,6 +700,7 @@
 		};
 		D2F70F062ACC0898005FE458 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58BB6EB1564D0DC4EFF58489 /* Pods-UMC5th_iOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -549,6 +720,7 @@
 		};
 		D2F70F072ACC0898005FE458 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6995A1D9A5F280F0EB3ED123 /* Pods-UMC5th_iOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -568,6 +740,7 @@
 		};
 		D2F70F092ACC0898005FE458 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 409DB4E4AE7371D1913F30E0 /* Pods-UMC5th_iOS-UMC5th_iOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -585,6 +758,7 @@
 		};
 		D2F70F0A2ACC0898005FE458 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5947E327F90606150E82F503 /* Pods-UMC5th_iOS-UMC5th_iOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

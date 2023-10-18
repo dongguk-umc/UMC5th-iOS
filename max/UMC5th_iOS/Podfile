@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'UMC5th_iOS' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'RealmSwift', '~>10'
+  # Pods for UMC5th_iOS
+
+  target 'UMC5th_iOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'UMC5th_iOSUITests' do
+    # Pods for testing
+  end
+
+end
