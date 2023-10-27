@@ -16,7 +16,7 @@
 					<key>UISceneDelegateClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
 					<key>UISceneStoryboardFile</key>
-					<string>UMC_2week_Storyboard</string>
+					<string>UMC4weekView</string>
 				</dict>
 			</array>
 		</dict>
